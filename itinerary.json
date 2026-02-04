@@ -1,0 +1,42 @@
+{
+  "tripName": "European Summer Adventure",
+  "traveler": {
+    "name": "Alex Johnson",
+    "contact": {
+      "email": "alex.johnson@email.com",
+      "phone": "555-123-4567"
+    }
+  },
+  "destinations": [
+    {
+      "location": "Paris",
+      "arrivalDate": "2026-06-10",
+      "departureDate": "2026-06-15",
+      "activities": [
+        {
+          "title": "Eiffel Tower Visit",
+          "time": "10:00 AM"
+        },
+        {
+          "title": "Louvre Museum Tour",
+          "time": "2:00 PM"
+        }
+      ]
+    },
+    {
+      "location": "Rome",
+      "arrivalDate": "2026-06-16",
+      "departureDate": "2026-06-21",
+      "activities": [
+        {
+          "title": "Colosseum Tour",
+          "time": "9:00 AM"
+        },
+        {
+          "title": "Vatican Museums Visit",
+          "time": "1:00 PM"
+        }
+      ]
+    }
+  ]
+}
