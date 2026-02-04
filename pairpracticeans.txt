@@ -1,0 +1,26 @@
+Pair Practice: JSON Travel Itinerary
+
+Nesting: The additional details in the traveler field were organized using nested objects, with contact information grouped inside a contact object. This improves organization by keeping related data together and makes the structure easier to read, maintain, and expand without cluttering the main traveler object.
+
+Arrays: For both destinations and activities, arrays were used. This choice allows multiple destinations and multiple activities to be stored in an ordered list. Using arrays makes it easy to add, remove, or loop through destinations and activities, which is important for handling trips with varying lengths and schedules.
+
+Scalability: This JSON structure can be expanded easily by adding new nested fields. 
+
+For example: A hotel object could be added to each destination with name, address, and check-in/check-out dates.
+A transportation object (like the one added in this task) can include mode, cost, or even duration.
+Because the data is already grouped logically, adding new features does not require restructuring existing data.
+
+
+
+
+Real-World Application:
+
+This data would be useful in a travel app or API to:
+
+Display trip details and daily activities to users
+
+Calculate total trip costs
+
+Integrate with booking systems for flights, hotels, and activities
+
+Sync itinerary information across devices or share it with other users
